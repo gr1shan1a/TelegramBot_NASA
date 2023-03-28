@@ -32,3 +32,5 @@ I use InteliJ Idea
 like: "cd /Users/macbook/IdeaProjects/NASAImage/out/artifacts/NASAImage_jar2\ scp NASAImage.jar kgrigor2019@62.84.121.112:." - перенести данный файл и кинуть в корень
 22) Then we go to VM(in terminal) and use: ls    *.jar - file in VM(isRed)
 23) Creating an Application User and group: https://computingforgeeks.com/how-to-run-java-jar-application-with-systemd-on-linux/
+24) Do all commands from the step above
+25)     jdkdjd
