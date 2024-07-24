@@ -1,7 +1,16 @@
 # TelegramBot_images_NASA1
 This bot will send you images from NASA's website
 
-#Steps to make telegram-bot autonomous 
+## Steps to run Bot
+1. Open Telegram
+2. Search for `JAVA_NASA_apod_downloader`
+3. Enter `/start`
+4. There are several buttons, so follow the commands below:
+   - `/get` - means to upload APOD(a picture of the day) to the chat
+   - TODO: Add commands 
+6. 
+
+# Steps to make telegram-bot autonomous 
 ---
 1) Register on https://cloud.yandex.ru
 2) Press "подключиться"
@@ -33,4 +42,3 @@ like: "cd /Users/macbook/IdeaProjects/NASAImage/out/artifacts/NASAImage_jar2\ sc
 22) Then we go to VM(in terminal) and use: ls    *.jar - file in VM(isRed)
 23) Creating an Application User and group: https://computingforgeeks.com/how-to-run-java-jar-application-with-systemd-on-linux/
 24) Do all commands from the step above
-25)     jdkdjd 
