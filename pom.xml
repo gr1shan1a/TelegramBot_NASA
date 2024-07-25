@@ -7,10 +7,7 @@
     <groupId>org.example</groupId>
     <artifactId>NASAImage</artifactId>
     <version>1.0-SNAPSHOT</version>
-<<<<<<< HEAD
-=======
     <packaging>jar</packaging>
->>>>>>> b986d3b (some changes and TODO: make jar with manifest)
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -36,14 +33,6 @@
             <artifactId>telegrambots</artifactId>
             <version>6.1.0</version>
         </dependency>
-<<<<<<< HEAD
-    </dependencies>
-
-
-
-
-</project>
-=======
 
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -97,4 +86,3 @@
         </plugins>
     </build>
 </project>
->>>>>>> b986d3b (some changes and TODO: make jar with manifest)
