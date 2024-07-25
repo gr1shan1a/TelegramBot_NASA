@@ -5,3 +5,4 @@
 META-INF
 out
 target
+.env
