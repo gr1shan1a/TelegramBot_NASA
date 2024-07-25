@@ -9,9 +9,7 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 import java.io.IOException;
 
 public class MyTelegramBot extends TelegramLongPollingBot {
-    public static final String BOT_TOKEN = "6090466293:AAHyvepgCtMgWidGcTJQtXu3spclCpugO6A";
-    public static final String BOT_USERNAME = "JAVA_NASA_imagesbot";
-    public static final String URL = "https://api.nasa.gov/planetary/apod?api_key=meXuPit01arAzczsziwyU97LKABrdqxjYWmoy8e9";
+
     private static long chatId;
     private static boolean awaitingPassword = false;
 
@@ -22,12 +20,12 @@ public class MyTelegramBot extends TelegramLongPollingBot {
 
         @Override
         public String getBotUsername() {
-            return BOT_USERNAME;
+            return Data.BOT_USERNAME;
         }
 
         @Override
         public String getBotToken() {
-            return BOT_TOKEN;
+            return Data.BOT_TOKEN;
         }
 
         @Override
@@ -62,7 +60,7 @@ public class MyTelegramBot extends TelegramLongPollingBot {
                             break;
                         case "/give":
                             try {
-                                sendMessage(utils.getUrl(URL));
+                                sendMessage(utils.getUrl(Data.URL));
                             } catch (IOException e) {
                                 sendMessage("Error retrieving image.");
                                 e.printStackTrace();
