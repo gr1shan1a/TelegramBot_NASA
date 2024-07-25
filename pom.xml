@@ -7,6 +7,10 @@
     <groupId>org.example</groupId>
     <artifactId>NASAImage</artifactId>
     <version>1.0-SNAPSHOT</version>
+<<<<<<< HEAD
+=======
+    <packaging>jar</packaging>
+>>>>>>> b986d3b (some changes and TODO: make jar with manifest)
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -32,9 +36,65 @@
             <artifactId>telegrambots</artifactId>
             <version>6.1.0</version>
         </dependency>
+<<<<<<< HEAD
     </dependencies>
 
 
 
 
 </project>
+=======
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>NasaBot</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <release>17</release>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>Main.java</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.1.2</version>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+>>>>>>> b986d3b (some changes and TODO: make jar with manifest)
