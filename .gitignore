@@ -6,3 +6,6 @@ META-INF
 out
 target
 .env
+.DS_Store
+src/.DS_Store
+
