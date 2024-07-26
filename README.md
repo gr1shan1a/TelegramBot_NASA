@@ -8,6 +8,8 @@ This bot will send you images from NASA's website to telegram-chat
 3. Enter `/start`
 4. Follow the marker in bot to get image from Nasa website.
 
+### p.s. Bot provides to send you APOD(a picture of the day) at 12:00(Moscow) daily 
+
 
 ## To start(if you want to create your own)
 1. Clone [this](https://github.com/gr1shan1a/TelegramBot_NASA.git) repository
