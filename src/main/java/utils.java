@@ -17,9 +17,15 @@ public class utils {
                     .build()) // собирает config
             .build();
 
-    public static String getUrl(String url) throws IOException {
+    public static String getNasaData(String url) throws IOException {
         CloseableHttpResponse response = httpClient.execute(new HttpGet(url));
         nasa NASA = mapper.readValue(response.getEntity().getContent(), nasa.class);
-        return NASA.getUrl();
+        response.close();
+
+        return String.format("%s\nDate: %s\n\n%s\n\nURL: %s",
+                NASA.getTitle(),
+                NASA.getDate(),
+                NASA.getExplanation(),
+                NASA.getUrl());
     }
 }
