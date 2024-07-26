@@ -5,8 +5,14 @@ This bot will send you images from NASA's website to telegram-chat
 ## Steps to run Telegram-Bot
 1. Open Telegram
 2. Search for `JAVA_NASA_apod_downloader`
+![Bot in search of chats](https://github.com/gr1shan1a/TelegramBot_NASA/blob/main/images/bot_pic.png)
 3. Enter `/start`
+![Login](https://github.com/gr1shan1a/TelegramBot_NASA/blob/main/images/login.png)
 4. Follow the marker in bot to get image from Nasa website.
+![Help instructions](https://github.com/gr1shan1a/TelegramBot_NASA/blob/main/images/help.png)
+5. So here are un example of bot's work
+![Example](https://github.com/gr1shan1a/TelegramBot_NASA/blob/main/images/presentation.png)
+6. Also there are link to ![HD_picture](https://github.com/gr1shan1a/TelegramBot_NASA/blob/main/images/imageHD.jpg) and ![basic_picture](https://github.com/gr1shan1a/TelegramBot_NASA/blob/main/images/image.jpg)
 
 ### p.s. Bot provides to send you APOD(a picture of the day) at 12:00(Moscow) daily 
 
