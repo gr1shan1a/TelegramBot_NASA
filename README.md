@@ -165,7 +165,11 @@ This bot will send you images from NASA's website to telegram-chat
 20. **Create Application User and Group:**
     - Follow the instructions to create an application user and group from [this guide](https://computingforgeeks.com/how-to-run-java-jar-application-with-systemd-on-linux/).
 
-21. **Run Commands from the Guide:**
-    - Execute all commands as described in the guide to configure and run your Java application.
+21. **To Run application:**
+    - Enter `java -jar <your_jar>` and go to telegram to check this.
+    - Check the autonomous work at your local time at 12:00!
 
 ---
+
+### 🌠 I hope you liked my repo and put a star ⭐) <3
+
